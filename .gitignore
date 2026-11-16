@@ -1,0 +1,31 @@
+# ---------- Java / Maven / IntelliJ ----------
+backend/target/
+backend/uploads/
+*.class
+*.log
+*.jar
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.mvn/wrapper/maven-wrapper.jar
+
+# ---------- Angular / Node / VS Code ----------
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/out-tsc/
+frontend/coverage/
+npm-debug.log*
+.vscode/*
+!.vscode/extensions.json
+
+# ---------- Secrets / local config ----------
+.env
+*.env.local
+application-local.properties
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
